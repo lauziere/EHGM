@@ -18,9 +18,7 @@ One graphical model and three hypergraphical models are proposed to contextualiz
 
 ## Installation
 
-The code requires Python 3.6 or higher. *exacthgm* can be installed through 'pip':
-
-  'pip install exacthgm'
+The code requires Python 3.6 or higher, and requires NumPy>=1.19.5, Pandas>=1.1.5, and Scipy>=1.5.4.
   
 ## Use
 
@@ -29,6 +27,4 @@ The four aforementioned models (*QAP*, *Pairs*, *Full*, *PF*) are ready for use 
 The file 'search.py' runs the search contingent on the settings in 'config.py'. Output folder structure is generated in the '.../exacthgm/Results/...' folder. The top predictions, corresponding costs, and runtime are saved for each sample. 
 
 The file 'build_arrays.py' creates the relevant statistical estimates for the multivariate Gaussian distributions. These are included in the repository already. However, the process in which to use the annotated data is highlighted such that users can craft other hypergraphical models for seam cell identification, or follow the process on other datasets.  
-
-
 
