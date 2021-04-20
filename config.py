@@ -15,7 +15,7 @@ import os
    Position: Multiple embryos are imaged for each strain. Each have different names corresponding to the 
    location and date of imaging.
 
-	Choose an imaged worm in which to run Exact_HGM:
+	Choose an imaged worm in which to run exacthgm:
 
 	RW10598:
 	 - 0: 'Pos0'
@@ -50,7 +50,7 @@ import os
 model = 'Pairs'
 dataset = 10
 
-# 4) Data range: Pick a sequence of images from the selected dataset in which to run Exact_HGM:
+# 4) Data range: Pick a sequence of images from the selected dataset:
 start_idx = 0
 end_idx = 100
 

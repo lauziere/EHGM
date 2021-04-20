@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
     # base_dir = os.path.abspath('.')
     base_dir = '/data/lauzierean/Untwisting'
-    home = os.path.join(base_dir, 'Exact_HGM')
+    home = os.path.join(base_dir, 'exacthgm')
     data_dir = os.path.join(home, 'Data')
 
     resources = os.path.join(home, 'Resources')

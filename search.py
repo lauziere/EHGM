@@ -26,8 +26,8 @@ if __name__ == '__main__':
     num_save = config['num_save']
     initial_cost = config['initial_cost']
 
-    resources_path = os.path.join(home, 'Exact_HGM', 'Resources', model)
-    data_path = os.path.join(home, 'Exact_HGM', 'Data')
+    resources_path = os.path.join(home, 'exacthgm', 'Resources', model)
+    data_path = os.path.join(home, 'exacthgm', 'Data')
     key_path = os.path.join(data_path, 'keys.npy')
     array_path = os.path.join(data_path, 'arrays.npy')
     
@@ -186,7 +186,7 @@ if __name__ == '__main__':
 
         elif model == 'Full':
 
-            resources_path = os.path.join(home, 'Exact_HGM', 'Resources')
+            resources_path = os.path.join(home, 'exacthgm', 'Resources')
 
             if n == 20:
 
@@ -252,7 +252,7 @@ if __name__ == '__main__':
 
         elif model == 'PF':
 
-            resources_path = os.path.join(home, 'Exact_HGM', 'Resources')
+            resources_path = os.path.join(home, 'exacthgm', 'Resources')
 
             if n == 20:
 
@@ -325,7 +325,7 @@ if __name__ == '__main__':
         for j in range(num_save):
             print(j+1, best_seqs[j].T, best_costs[j], '\n')
 
-        out_path = os.path.join(home, 'Exact_HGM', 'Results', experiment_name, model, str(dataset), str(i))
+        out_path = os.path.join(home, 'exacthgm', 'Results', experiment_name, model, str(dataset), str(i))
 
         if not os.path.isdir(out_path):
 
