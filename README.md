@@ -1,6 +1,6 @@
 # *An Exact Hypergraph Matching Algorithm for Nuclear Identification in Emrbyonic C. elegans* 
 
-This repository contains the Python implementation of *Exact HGM* applied to seam cell nuclei identification in embryonc *Caenorhabditis elegans*, as described in:
+This repository contains the Python implementation of *exacthgm* applied to seam cell nuclei identification in embryonc *Caenorhabditis elegans*, as described in:
 
 - Andrew Lauziere, Ryan Christensen, Hari Shroff, Radu Balan. [*An Exact Hypergraph Matching Algorithm for Nuclear Identification in Embryonic Caenorhabditis elegans*] (http://arxiv.org)
 
@@ -18,7 +18,7 @@ One graphical model and three hypergraphical models are proposed to contextualiz
 
 ## Installation
 
-The code requires Python 3.6 or higher. *ExactHGM* can be installed through 'pip':
+The code requires Python 3.6 or higher. *exacthgm* can be installed through 'pip':
 
   'pip install exacthgm'
   
@@ -26,7 +26,7 @@ The code requires Python 3.6 or higher. *ExactHGM* can be installed through 'pip
 
 The four aforementioned models (*QAP*, *Pairs*, *Full*, *PF*) are ready for use on seam cell identification. The file 'config.py' allows a user to set hyperparameters and choose which dataset in which to run the search. The sixteen datasets are freely available for evaluation. Runtime limits and an initial upper bound on the objective minimum can be set in the configuration. 
 
-The file 'search.py' runs the search contingent on the settings in 'config.py'. Output folder structure is generated in the '.../Exact_HGM/Results/...' folder. The top predictions, corresponding costs, and runtime are saved for each sample. 
+The file 'search.py' runs the search contingent on the settings in 'config.py'. Output folder structure is generated in the '.../exacthgm/Results/...' folder. The top predictions, corresponding costs, and runtime are saved for each sample. 
 
 The file 'build_arrays.py' creates the relevant statistical estimates for the multivariate Gaussian distributions. These are included in the repository already. However, the process in which to use the annotated data is highlighted such that users can craft other hypergraphical models for seam cell identification, or follow the process on other datasets.  
 
