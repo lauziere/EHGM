@@ -18,7 +18,7 @@ One graphical model and three hypergraphical models are proposed to contextualiz
 
 ## Installation
 
-The code requires Python 3.6 or higher, and requires NumPy>=1.19.5, Pandas>=1.1.5, and Scipy>=1.5.4.
+The code requires Python 3.6 or higher, and requires NumPy>=1.19.5, Pandas>=1.1.5, and Scipy>=1.5.4. Simply clone the repository and navigate to '.../exacthgm/' to execute 'search.py'.
   
 ## Use
 
