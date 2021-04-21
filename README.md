@@ -2,7 +2,7 @@
 
 This repository contains the Python implementation of *exacthgm* applied to seam cell nuclei identification in embryonc *Caenorhabditis elegans*, as described in:
 
-- Andrew Lauziere, Ryan Christensen, Hari Shroff, Radu Balan. [*An Exact Hypergraph Matching Algorithm for Nuclear Identification in Embryonic Caenorhabditis elegans*] (http://arxiv.org)
+- Andrew Lauziere, Ryan Christensen, Hari Shroff, Radu Balan. [*An Exact Hypergraph Matching Algorithm for Nuclear Identification in Embryonic Caenorhabditis elegans*] (https://arxiv.org/abs/2104.10003)
 
 ## Overview
 
